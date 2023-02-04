@@ -6,6 +6,7 @@ body {
     text-align: center;
 }
 
+/* Header / Navbar */
 .header {
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,7 @@ body {
     flex-shrink: 0;
 }
 
+/* Hero */
 a, 
 .hero-paragraph {
     text-decoration: none;
@@ -78,6 +80,7 @@ ul {
     font-weight: bold;
 }
 
+/* Content */
 .content-img {
     width: 200px;
     height: 200px;
@@ -113,26 +116,30 @@ ul {
     font-weight: bold;
 }
 
+/* Quote */
 .quote {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 100%;
-    background: #E5E7EB;
+    padding: 0;
     margin: 0;
+    background: #E5E7EB;
+    width: 100%;
 }
 
 .quote-in {
-    padding: px;
+    padding: 50px 30px;
 }
 
 .quote-text {
-    width: 600px;
     color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     text-align: left;
+    max-width: 600px;
+    min-width: 100px;
 }
 
 .quote-name {
@@ -140,11 +147,14 @@ ul {
     display: flex;
 }
 
+/* Call To Action */
 .cta {
     background-color: #3882F6;
     margin: 100px;
     border-radius: 10px;
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
 }
 
 .cta-in {
@@ -174,6 +184,7 @@ ul {
     height: 30px;
 }
 
+/* Footer */
 .footer {
     background-color: #1F2937;
     padding: 20px;
