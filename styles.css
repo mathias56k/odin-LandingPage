@@ -129,7 +129,7 @@ ul {
 }
 
 .quote-in {
-    padding: 50px 30px;
+    padding: 50px 50px;
 }
 
 .quote-text {
@@ -165,8 +165,12 @@ ul {
 }
 
 .cta-text {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    width: 500px;
+    min-width: 180px;
+    max-width: 500px;
+    padding-right: 20px;
 }
 
 .cta-title,
