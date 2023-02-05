@@ -9,10 +9,8 @@ body {
 /* Header / Navbar */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
     background: #1F2937;
     margin: 0;
 }
@@ -51,7 +49,7 @@ ul {
     background-color: #1F2937;
     margin: 0;
     margin-top: -40px;
-
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
